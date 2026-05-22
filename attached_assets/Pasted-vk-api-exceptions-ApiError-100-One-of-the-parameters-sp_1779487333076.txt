@@ -1,0 +1,112 @@
+vk_api.exceptions.ApiError: [100] One of the parameters specified was missing or invalid: longpoll for this group is not enabled.
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/app/main.py", line 19, in <module>
+    longpoll = VkBotLongPoll(vk_session, GROUP_ID)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/.venv/lib/python3.11/site-packages/vk_api/bot_longpoll.py", line 219, in __init__
+    self.update_longpoll_server()
+  File "/app/.venv/lib/python3.11/site-packages/vk_api/bot_longpoll.py", line 232, in update_longpoll_server
+    response = self.vk.method('groups.getLongPollServer', values)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/.venv/lib/python3.11/site-packages/vk_api/vk_api.py", line 697, in method
+    raise error
+vk_api.exceptions.ApiError: [100] One of the parameters specified was missing or invalid: longpoll for this group is not enabled.
+Traceback (most recent call last):
+  File "/app/main.py", line 19, in <module>
+    longpoll = VkBotLongPoll(vk_session, GROUP_ID)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/.venv/lib/python3.11/site-packages/vk_api/bot_longpoll.py", line 219, in __init__
+    self.update_longpoll_server()
+  File "/app/.venv/lib/python3.11/site-packages/vk_api/bot_longpoll.py", line 232, in update_longpoll_server
+    response = self.vk.method('groups.getLongPollServer', values)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/.venv/lib/python3.11/site-packages/vk_api/vk_api.py", line 697, in method
+    raise error
+vk_api.exceptions.ApiError: [100] One of the parameters specified was missing or invalid: longpoll for this group is not enabled.
+Traceback (most recent call last):
+  File "/app/main.py", line 19, in <module>
+    longpoll = VkBotLongPoll(vk_session, GROUP_ID)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/.venv/lib/python3.11/site-packages/vk_api/bot_longpoll.py", line 219, in __init__
+    self.update_longpoll_server()
+  File "/app/.venv/lib/python3.11/site-packages/vk_api/bot_longpoll.py", line 232, in update_longpoll_server
+    response = self.vk.method('groups.getLongPollServer', values)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/.venv/lib/python3.11/site-packages/vk_api/vk_api.py", line 697, in method
+    raise error
+vk_api.exceptions.ApiError: [100] One of the parameters specified was missing or invalid: longpoll for this group is not enabled.
+Traceback (most recent call last):
+  File "/app/main.py", line 19, in <module>
+    longpoll = VkBotLongPoll(vk_session, GROUP_ID)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/.venv/lib/python3.11/site-packages/vk_api/bot_longpoll.py", line 219, in __init__
+    self.update_longpoll_server()
+  File "/app/.venv/lib/python3.11/site-packages/vk_api/bot_longpoll.py", line 232, in update_longpoll_server
+    response = self.vk.method('groups.getLongPollServer', values)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/.venv/lib/python3.11/site-packages/vk_api/vk_api.py", line 697, in method
+    raise error
+vk_api.exceptions.ApiError: [100] One of the parameters specified was missing or invalid: longpoll for this group is not enabled.
+Traceback (most recent call last):
+  File "/app/main.py", line 19, in <module>
+    longpoll = VkBotLongPoll(vk_session, GROUP_ID)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/.venv/lib/python3.11/site-packages/vk_api/bot_longpoll.py", line 219, in __init__
+    self.update_longpoll_server()
+  File "/app/.venv/lib/python3.11/site-packages/vk_api/bot_longpoll.py", line 232, in update_longpoll_server
+    response = self.vk.method('groups.getLongPollServer', values)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/.venv/lib/python3.11/site-packages/vk_api/vk_api.py", line 697, in method
+    raise error
+vk_api.exceptions.ApiError: [100] One of the parameters specified was missing or invalid: longpoll for this group is not enabled.
+Traceback (most recent call last):
+  File "/app/main.py", line 19, in <module>
+    longpoll = VkBotLongPoll(vk_session, GROUP_ID)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/.venv/lib/python3.11/site-packages/vk_api/bot_longpoll.py", line 219, in __init__
+    self.update_longpoll_server()
+  File "/app/.venv/lib/python3.11/site-packages/vk_api/bot_longpoll.py", line 232, in update_longpoll_server
+    response = self.vk.method('groups.getLongPollServer', values)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^
+  File "/app/.venv/lib/python3.11/site-packages/vk_api/vk_api.py", line 697, in method
+    raise error
+vk_api.exceptions.ApiError: [100] One of the parameters specified was missing or invalid: longpoll for this group is not enabled.
+Traceback (most recent call last):
+  File "/app/main.py", line 19, in <module>
+    longpoll = VkBotLongPoll(vk_session, GROUP_ID)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/.venv/lib/python3.11/site-packages/vk_api/bot_longpoll.py", line 219, in __init__
+    self.update_longpoll_server()
+  File "/app/.venv/lib/python3.11/site-packages/vk_api/bot_longpoll.py", line 232, in update_longpoll_server
+    response = self.vk.method('groups.getLongPollServer', values)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/.venv/lib/python3.11/site-packages/vk_api/vk_api.py", line 697, in method
+    raise error
+vk_api.exceptions.ApiError: [100] One of the parameters specified was missing or invalid: longpoll for this group is not enabled.
+    raise error
+vk_api.exceptions.ApiError: [100] One of the parameters specified was missing or invalid: longpoll for this group is not enabled.
+Traceback (most recent call last):
+  File "/app/main.py", line 19, in <module>
+    longpoll = VkBotLongPoll(vk_session, GROUP_ID)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/.venv/lib/python3.11/site-packages/vk_api/bot_longpoll.py", line 219, in __init__
+    self.update_longpoll_server()
+  File "/app/.venv/lib/python3.11/site-packages/vk_api/bot_longpoll.py", line 232, in update_longpoll_server
+    response = self.vk.method('groups.getLongPollServer', values)
+          
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/.venv/lib/python3.11/site-packages/vk_api/vk_api.py", line 697, in method
+Traceback (most recent call last):
+  File "/app/main.py", line 19, in <module>
+    longpoll = VkBotLongPoll(vk_session, GROUP_ID)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/.venv/lib/python3.11/site-packages/vk_api/bot_longpoll.py", line 219, in __init__
+    self.update_longpoll_server()
+  File "/app/.venv/lib/python3.11/site-packages/vk_api/bot_longpoll.py", line 232, in update_longpoll_server
+    response = self.vk.method('groups.getLongPollServer', values)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/.venv/lib/python3.11/site-packages/vk_api/vk_api.py", line 697, in method
+    raise error
+vk_api.exceptions.ApiError: [100] One of the parameters specified was missing or invalid: longpoll for this group is not enabled.
