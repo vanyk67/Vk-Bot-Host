@@ -220,11 +220,13 @@ print("Бот запущен, слушаю события...")
 while True:
     try:
         for event in longpoll.listen():
+            print(f"Событие: {event.type}")
             if event.type == VkBotEventType.MESSAGE_NEW:
                 msg = event.message.text.lower().strip()
                 peer_id = event.message.peer_id
                 user_id = event.message.from_id
                 user_name = event.message.from_id
+                print(f"Сообщение от {user_id} в {peer_id}: {msg}")
 
                 try:
                     user_info = vk.users.get(user_ids=user_id, fields="city, sex, bdate")[0]
