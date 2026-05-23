@@ -16,7 +16,16 @@ GROUP_ID = int(os.environ["VK_GROUP_ID"])
 
 vk_session = vk_api.VkApi(token=TOKEN)
 vk = vk_session.get_api()
-longpoll = VkBotLongPoll(vk_session, GROUP_ID)
+
+while True:
+    try:
+        longpoll = VkBotLongPoll(vk_session, GROUP_ID)
+        print("Long Poll подключён успешно!")
+        break
+    except Exception as e:
+        print(f"Ошибка подключения Long Poll: {e}")
+        print("Повтор через 30 секунд...")
+        time.sleep(30)
 
 conn = sqlite3.connect('bot_database.db', check_same_thread=False)
 cursor = conn.cursor()
