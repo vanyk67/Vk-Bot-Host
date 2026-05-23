@@ -192,14 +192,19 @@ def create_meme(template, top_text, bottom_text):
     return f"Мем создан: {template}\nТекст: {top_text} | {bottom_text}"
 
 def check_timers():
+    timer_conn = sqlite3.connect('bot_database.db', check_same_thread=False)
+    timer_cursor = timer_conn.cursor()
     while True:
-        current_time = int(time.time())
-        cursor.execute("SELECT user_id, chat_id, message FROM timers WHERE trigger_time <= ?", (current_time,))
-        timers = cursor.fetchall()
-        for timer in timers:
-            send_message(timer[1], f"🔔 Напоминание: {timer[2]}")
-            cursor.execute("DELETE FROM timers WHERE user_id = ? AND trigger_time = ?", (timer[0], current_time))
-            conn.commit()
+        try:
+            current_time = int(time.time())
+            timer_cursor.execute("SELECT user_id, chat_id, message FROM timers WHERE trigger_time <= ?", (current_time,))
+            timers = timer_cursor.fetchall()
+            for timer in timers:
+                send_message(timer[1], f"🔔 Напоминание: {timer[2]}")
+                timer_cursor.execute("DELETE FROM timers WHERE user_id = ? AND trigger_time = ?", (timer[0], current_time))
+                timer_conn.commit()
+        except Exception as e:
+            print(f"Ошибка таймера: {e}")
         time.sleep(30)
 
 threading.Thread(target=check_timers, daemon=True).start()
